@@ -1,0 +1,13 @@
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.exe
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.deps.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.runtimeconfig.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.runtimeconfig.dev.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.dll
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\Bankomat.pdb
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.csprojAssemblyReference.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.AssemblyInfoInputs.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.AssemblyInfo.cs
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.csproj.CoreCompileInputs.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.dll
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.pdb
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\Bankomat.genruntimeconfig.cache

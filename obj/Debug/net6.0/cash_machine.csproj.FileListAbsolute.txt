@@ -1,0 +1,16 @@
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.exe
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.deps.json
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.runtimeconfig.json
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.dll
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.pdb
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.csproj.AssemblyReference.cache
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.AssemblyInfoInputs.cache
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.AssemblyInfo.cs
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.dll
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\refint\cash_machine.dll
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.pdb
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\cash_machine.genruntimeconfig.cache
+C:\Users\Denis\Downloads\Bankomat\Bankomat\obj\Debug\net6.0\ref\cash_machine.dll
+C:\Users\Denis\Downloads\Bankomat\Bankomat\bin\Debug\net6.0\cash_machine.xml

@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>cash_machine</name>
+    </assembly>
+    <members>
+        <member name="T:cash_machine.ATM">
+             <summary>
+             Třída bankomatu. 
+            
+             Startuje bankomat a prování základní operace.
+             </summary>
+        </member>
+        <member name="F:cash_machine.ATM.Name">
+            <summary>
+            Jméno bankomatu
+            </summary>
+        </member>
+        <member name="F:cash_machine.ATM.ID">
+            <summary>
+            ID bankomatu
+            </summary>
+        </member>
+        <member name="M:cash_machine.ATM.Start">
+            <summary>
+            Zapíná bankomat
+            </summary>
+        </member>
+        <member name="M:cash_machine.ATM.Choices(cash_machine.BankAccount)">
+            <summary>
+            Jednotlivé možnosti ATM
+            </summary>
+            <param name="bankAccount"></param>
+        </member>
+        <member name="M:cash_machine.ATM.Menu">
+            <summary>
+            Print menu items
+            </summary>
+        </member>
+        <member name="M:cash_machine.ATM.Check100Divide(System.Int32)">
+            <summary>
+            Kontrola jestli je částka dělitelná 100.
+            </summary>
+            <param name="sum"></param>
+            <returns>true/false</returns>
+        </member>
+        <member name="F:cash_machine.BankAccount.Id">
+            <summary>
+            ID bankovního účtu
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.Name">
+            <summary>
+            Název bankovního účtu
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.Owner">
+            <summary>
+            Vlastník bankovního účtu
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.SelectedCard">
+            <summary>
+            Aktuálně vybráná karta
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.cards">
+            <summary>
+            Seznam všech karet
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.bankAccounts">
+            <summary>
+            Seznam všech bankovních účtů
+            </summary>
+        </member>
+        <member name="F:cash_machine.BankAccount.Amount">
+            <summary>
+            Výchozí zůstatek v bankovním účtu
+            </summary>
+        </member>
+        <member name="M:cash_machine.BankAccount.#ctor(System.String,System.String)">
+            <summary>
+            Konstruktor. Přidá bankovní účet do seznamu bankovních účtů.
+            Automaticky nastaví ID o 1 větší než předchozí bankovní účet.
+            </summary>
+            <param name="name">Název bankovního účtu</param>
+            <param name="owner">Vlastník bankovního účtu</param>
+        </member>
+        <member name="M:cash_machine.BankAccount.EnterPin">
+            <summary>
+            Metoda na zadání pinu od bankovního účtu
+            </summary>
+        </member>
+        <member name="M:cash_machine.BankAccount.getAmount">
+            <summary>
+            Zjištění zůstatku
+            </summary>
+        </member>
+        <member name="M:cash_machine.BankAccount.Withdraw">
+            <summary>
+            Výběr z bankomatu
+            </summary>
+        </member>
+        <member name="M:cash_machine.BankAccount.Deposit">
+            <summary>
+            Vložení peněz
+            </summary>
+        </member>
+        <member name="M:cash_machine.BankAccount.AddToDeposit(System.Int32)">
+            <summary>
+            Přičtení peněz k zůstatku
+            </summary>
+            <param name="sum">Částka k přičtení</param>
+        </member>
+        <member name="M:cash_machine.BankAccount.CheckWithDraw(System.Int32)">
+            <summary>
+            Kontrola jestli mu vybrat. Mám dostatečný zůstatek?
+            </summary>
+            <param name="withDraw">Částka k odečtení</param>
+            <returns>Jestli mám dostatečný zůstatek</returns>
+        </member>
+        <member name="M:cash_machine.BankAccount.RemoveFromDeposit(System.Int32)">
+            <summary>
+            Odečtení ze současného zůstatku
+            </summary>
+            <param name="sum">Částka k odečtení</param>
+        </member>
+        <member name="F:cash_machine.Card.BankAccountId">
+            <summary>
+            ID bankovního účtu pro který je dělaná karta
+            </summary>
+        </member>
+        <member name="F:cash_machine.Card.Number">
+            <summary>
+            Číslo karty (0123 4567 8901 2345)
+            </summary>
+        </member>
+        <member name="F:cash_machine.Card.Pin">
+            <summary>
+            Pin ke kartě
+            </summary>
+        </member>
+        <member name="F:cash_machine.Card.EditedNumber">
+            <summary>
+            Upravené číslo karty (0123 xxxx xxxx xxxx)
+            </summary>
+        </member>
+        <member name="M:cash_machine.Card.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Konstruktor. Náhodně vygeneruje číslo platební karty.
+            </summary>
+            <param name="bankAccountId">ID bankovního účtu pro který je dělaná karta </param>
+            <param name="pin">PIN ke kartě</param>
+        </member>
+        <member name="M:cash_machine.Card.CheckPin(System.Int32,System.Collections.Generic.List{cash_machine.Card},System.Int32)">
+            <summary>
+            Kontrola jestli je pin zadaný uživatelem stejný jako pin od bankovního účtu
+            </summary>
+            <param name="pin">Pin</param>
+            <param name="cards">Seznam karet</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="M:cash_machine.Card.SelectCard(System.Int32,System.Collections.Generic.List{cash_machine.Card})">
+            <summary>
+            
+            </summary>
+            <param name="pin"></param>
+            <param name="cards"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

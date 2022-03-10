@@ -1,0 +1,13 @@
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.exe
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.deps.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.runtimeconfig.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.runtimeconfig.dev.json
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.dll
+C:\Users\batad\source\repos\Bankomat\bin\Debug\netcoreapp3.1\cash_machine.pdb
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.AssemblyInfoInputs.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.AssemblyInfo.cs
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.csproj.CoreCompileInputs.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.dll
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.pdb
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.genruntimeconfig.cache
+C:\Users\batad\source\repos\Bankomat\obj\Debug\netcoreapp3.1\cash_machine.csprojAssemblyReference.cache
