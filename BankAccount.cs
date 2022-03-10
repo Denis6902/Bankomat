@@ -9,26 +9,32 @@ namespace cash_machine
         /// ID bankovního účtu
         /// </summary>
         private int Id;
+
         /// <summary>
         /// Název bankovního účtu
         /// </summary>
         public string Name;
+
         /// <summary>
         /// Vlastník bankovního účtu
         /// </summary>
         public string Owner;
+
         /// <summary>
         /// Aktuálně vybráná karta
         /// </summary>
         public Card SelectedCard;
+
         /// <summary>
         /// Seznam všech karet
         /// </summary>
         private List<Card> cards = new();
+
         /// <summary>
         /// Seznam všech bankovních účtů
         /// </summary>
         private static List<BankAccount> bankAccounts = new();
+
         /// <summary>
         /// Výchozí zůstatek v bankovním účtu
         /// </summary>
@@ -57,17 +63,17 @@ namespace cash_machine
         public void EnterPin()
         {
             listAllAvailableCards(); // výpis všech karet k danému bankovnímu účtu
-            
+
             Console.WriteLine("Jakou kartu chcete vybrat?");
-            int cardIndex = Int32.Parse(Console.ReadLine());
+            int cardIndex = Int32.Parse(Console.ReadLine()); // výběr dané karty se seznamu karet
 
             Console.WriteLine($"Zadej PIN ke kartě: ");
-            //Console.WriteLine($"Zadej PIN k jedné z karet: ");
             string pinAsString = Console.ReadLine(); // načtení z konzole
 
             if (int.TryParse(pinAsString, out int pinAsInt)) // Zkusí převést string (pinAsString) na int (pinAsInt)
             {
-                if (!Card.CheckPin(pinAsInt, cards, cardIndex-1)) // Jestli PIN jde převést na číslo, zkontroluje správnost zadaného pinu
+                if (!Card.CheckPin(pinAsInt, cards,
+                        cardIndex - 1)) // Jestli PIN jde převést na číslo, zkontroluje správnost zadaného pinu
                 {
                     Console.WriteLine("Špatný pin");
                     Environment.Exit(0);
@@ -83,13 +89,15 @@ namespace cash_machine
             }
         }
 
-        private void listAllAvailableCards()
+        private void listAllAvailableCards() // výpis všech karet k danému bankovnímu účtu
         {
-            for (int index = 0; index < cards.Count; index++) // For cyklus, který vypíše všechny karty k danému bankovnímu účtu
+            for (int index = 0;
+                 index < cards.Count;
+                 index++) // For cyklus, který vypíše všechny karty k danému bankovnímu účtu
             {
                 Card card = cards[index];
                 Console.WriteLine(
-                    $"{index+1}) Číslo karty {card.EditedNumber}. Název bankovního účtu - " +
+                    $"{index + 1}) Číslo karty {card.EditedNumber}. Název bankovního účtu - " +
                     $"{BankAccount.bankAccounts.Find(bc => bc.Id == card.BankAccountId).Name}");
             }
         }

@@ -18,7 +18,7 @@ namespace cash_machine
         /// ID bankomatu
         /// </summary>
         private int ID;
-        
+
 
         public ATM(string name, int id)
         {
@@ -45,7 +45,7 @@ namespace cash_machine
         /// <summary>
         /// Jednotlivé možnosti ATM
         /// </summary>
-        /// <param name="bankAccount"></param>
+        /// <param name="bankAccount">Zvolený bankovní účet</param>
         private void Choices(BankAccount bankAccount)
         {
             bool loop = true;
@@ -61,15 +61,19 @@ namespace cash_machine
                 switch (choice)
                 {
                     case 1:
+                        // zjistit zůstatek
                         bankAccount.getAmount();
                         break;
                     case 2:
+                        // vybrat peníze
                         bankAccount.Withdraw();
                         break;
                     case 3:
+                        // vložit peníze
                         bankAccount.Deposit();
                         break;
                     case 4:
+                        // změnit PIN
                         bankAccount.SelectedCard.ChangePin();
                         break;
                     default:
